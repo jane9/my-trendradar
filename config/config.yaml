@@ -150,11 +150,17 @@ rss:
     - id: "jiaoyubuzhengcejiedu"
       name: "教育部政策解读"
       url: "https://rsshub.dicomp.net/gov/moe/policy_anal"
+      max_age_days: 0
 
            
     - id: "lianhezaobao"
       name: "联合早报中港台"
       url: "https://rsshub.dicomp.net/pubscholar/explore"
+
+    - id: "github-trending"
+      name: "GitHub Trending"
+      url: "https://mshibanern.github.io/GitHubTrendingRSS/daily/all.xml"
+      max_age_days: 2
       
 
     # 自定义源示例
